@@ -1,9 +1,14 @@
+img {
+    float:left;
+}
+
 h1 {
   font-family: 'Prompt'; 
   font-size: 100px;
   text-align: center;
   color: #194BA7;
   margin-top: -30px; 
+  float:right;
 }
 
 h2 {
@@ -21,10 +26,54 @@ html {
   background-color: #F0E8D4;
 }
 
-p {
+div#title {
+  display: flex;
+  margin:auto;
+  width: 716px;
+}
+
+div#p1 {
   font-family: 'Inter';
   font-size: 20px; 
   color: dimgrey;
   margin-left: 40px;
   margin-right:40px;
 }
+
+div#p2 {
+  font-family: 'Inter';
+  font-size: 20px; 
+  background-color:white;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: dimgrey;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.btn {
+  font-family: 'Inter';
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 15px;
+  background-color: #194BA7;
+  color: white;
+}
+
+#btn-div {
+  margin: auto;
+  width: 160px;
+  margin-bottom: 100px;
+}
+
+#p3 {
+  font-family: 'Prompt';
+  color: #194BA7;
+  text-align: center;
+  font-size: 50px;
+}
+
