@@ -1,10 +1,30 @@
 h1 {
   font-family: 'Prompt'; 
-  font-size: 22px;
+  font-size: 100px;
   text-align: center;
-  color: #194BA7; 
+  color: #194BA7;
+  margin-top: -30px; 
+}
+
+h2 {
+  font-family: 'Inter'; 
+  font-size: 20px;
+  text-align: center;
+  color: dimgrey;
+  margin-top:100;
+  font-weight: 100;
+  margin-top: 100px;
+  font-variant-caps: all-small-caps; 
 }
 
 html {
   background-color: #F0E8D4;
+}
+
+p {
+  font-family: 'Inter';
+  font-size: 20px; 
+  color: dimgrey;
+  margin-left: 40px;
+  margin-right:40px;
 }
